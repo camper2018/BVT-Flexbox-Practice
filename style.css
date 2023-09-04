@@ -34,3 +34,24 @@
     align-items: center;
     justify-content: center;
 }
+.inner-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
+.aqua {
+  background-color: aqua;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.green{
+   background-color: green;
+   width: 200px;
+   height: 200px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
