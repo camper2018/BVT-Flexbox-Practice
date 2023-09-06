@@ -7,32 +7,25 @@
     justify-content: center;
 
 }
-.red{
+.red, .yellow, .blue, .aqua, .green {
    width: 200px;
    height: 200px;
-   background-color: red;
-   order: -1;
    display: flex;
    align-items: center;
    justify-content: center;
+}
+
+.red{
+   background-color: red;
+   order: -1;
    
 }
 .yellow {
-    width: 200px;
-    height: 200px;
     background-color: yellow;
-    display: flex;
-   align-items: center;
-   justify-content: center;
 }
 .blue{
-    width: 200px;
-    height: 200px;
     background-color: blue;
     align-self: flex-end;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .inner-container {
     display: flex;
@@ -41,17 +34,8 @@
 }
 .aqua {
   background-color: aqua;
-  width: 200px;
-  height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
 }
 .green{
    background-color: green;
-   width: 200px;
-   height: 200px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
 }
